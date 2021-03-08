@@ -1,0 +1,147 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #fbebdb;
+    margin: 0;
+    font-weight: 700;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+header{
+    border-bottom: 5px solid #697e8e;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header img {
+    height: 30px;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.container div {
+    padding: 0px;
+}
+
+.box-1 {
+    width: 33%;
+    color: #697e8e;
+    text-align: center;
+}
+
+.box-2 {
+    width: 67%;
+    text-align: center;
+}
+
+
+.avatar {
+    height: 500px;
+    border-radius: 10px 100px 10px 100px;
+    padding-top: 15px;
+}
+
+.heading {
+    font-size:30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase; 
+    color: #697e8e;
+}
+
+ul {
+    text-align: left;
+    font-size:20px;
+}
+
+li {
+    padding: 5px;
+}
+
+.citation {
+    background-color: #697e8e;;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(214, 50, 50);
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+a:visited {
+    color: black;
+}
+
+
+.box-2 ul {
+    background-color: #697e8e;
+    color: #fbebdb;
+}
+
+.box-2 ul li {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.box-2 ul li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background:  #fbebdb;
+    top: 50%;
+    left: -10px;
+    transform: translate(0, -50%);
+}
+
+
+h3 {
+    color: #697e8e;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+footer{
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px;
+    color: #697e8e;
+    border-top: 5px solid #697e8e;
+}
+
+.examples__imgContainer {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.examples__imgContainer img{
+  width: 49%;
+}
+
+.citationText {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
